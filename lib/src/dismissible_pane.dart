@@ -14,7 +14,7 @@ const Duration _kResizeDuration = Duration(milliseconds: 300);
 /// Used by [DismissiblePane.confirmDismiss].
 typedef ConfirmDismissCallback = Future<bool> Function();
 
-/// A widget wich controls how a [Slidable] dismisses.
+/// A widget which controls how a [Slidable] dismisses.
 class DismissiblePane extends StatefulWidget {
   /// Creates a [DismissiblePane].
   ///
@@ -45,7 +45,7 @@ class DismissiblePane extends StatefulWidget {
   /// Defaults to 0.75.
   final double dismissThreshold;
 
-  /// The amount of time the widget will spend to complete the dissmiss
+  /// The amount of time the widget will spend to complete the dismiss
   /// animation.
   ///
   /// Defaults to 300ms.

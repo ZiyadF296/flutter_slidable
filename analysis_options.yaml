@@ -39,7 +39,7 @@ linter:
       # Only useful when targeting JS runtime
     avoid_double_and_int_checks: false
 
-    # Improve readbility
+    # Improve readability
     avoid_function_literals_in_foreach_calls: false
 
     # Only useful when targeting JS runtime
@@ -100,7 +100,7 @@ linter:
     # Issue: https://github.com/dart-lang/language/issues/32
     prefer_mixin: false
 
-    # Intelissence do the jobs for constructors.
+    # Intellisense do the jobs for constructors.
     prefer_asserts_with_message: false
 
     # More readable
@@ -134,6 +134,6 @@ linter:
     use_to_and_as_if_applicable: false
 
     # Incompatible with `prefer_final_locals`
-    # Having immutable local variables makes larger functions more predictible
+    # Having immutable local variables makes larger functions more predictable
     # so we will use `prefer_final_locals` instead.
     unnecessary_final: false

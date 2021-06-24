@@ -8,7 +8,7 @@ import 'package:flutter_test/flutter_test.dart';
 void main() {
   group('Slidable', () {
     testWidgets(
-        'child should be able to open the horitzontal start action pane',
+        'child should be able to open the horizontal start action pane',
         (tester) async {
       const gestureDetectorKey = ValueKey('gesture_detector');
       const startActionPaneKey = ValueKey('start');

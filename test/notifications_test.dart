@@ -230,7 +230,7 @@ void main() {
     });
 
     testWidgets(
-        'when opening more than one slidables at the same time, only the last one stays open',
+        'when opening more than one slidable at the same time, only the last one stays open',
         (tester) async {
       final controllers = List.generate(
         4,

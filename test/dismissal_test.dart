@@ -67,7 +67,7 @@ void main() {
       expect(tester.getSize(finder).width, 0);
     });
 
-    testWidgets('throws a FlutterError 0 if rebuilt after dissmissed',
+    testWidgets('throws a FlutterError 0 if rebuilt after dismissed',
         (tester) async {
       final slidableController = SlidableController(const TestVSync());
 
